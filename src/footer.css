@@ -1,0 +1,130 @@
+.main-footer {
+  position: relative;
+  background: #000000;
+}
+
+.row1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  /* margin-right: 10%; */
+}
+
+.footer-content {
+  position: relative;
+  padding: 22px 10px 69px 25px;
+}
+
+.footer-column1 {
+  align-items: center;
+  display: flex;
+}
+
+.footer-content .logo-widget {
+  position: relative;
+  margin-top: -5px;
+}
+
+.footer-content .logo-widget .footer-social li {
+  display: inline-block;
+  margin-right: 9px;
+}
+
+.footer-content .logo-widget .footer-social li:last-child {
+  margin-right: 0px;
+}
+
+.footer-content .logo-widget .footer-social li a {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  background: #2e3138;
+  color: #9ea0a9;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.footer-content .logo-widget .footer-social li a:hover {
+  color: #ffffff;
+  background: #ff5e14;
+}
+
+.footer-content .copyright,
+.footer-content .footer-nav li a {
+  color: #9ea0a9;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-content .copyright a:hover,
+.footer-content .footer-nav li a:hover {
+  color: #ff1e00;
+}
+
+.footer-content .footer-nav {
+  text-align: left;
+  /* Align icons to the left */
+}
+
+.footer-content .footer-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer-content .footer-nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-content .footer-nav ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-content .footer-nav ul li a img {
+  width: 30px;
+  /* Adjust icon size */
+  height: auto;
+}
+
+.logo-box img {
+  max-width: 220px;
+}
+
+figure {
+  justify-content: space-around;
+  display: flex;
+}
+
+p {
+  font-family: sans-serif;
+  align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+/* Animation for hover */
+.footer-nav a:hover img {
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Toggle effect */
+.icon-toggled img {
+  filter: brightness(0.5);
+  transition: filter 0.3s;
+}
